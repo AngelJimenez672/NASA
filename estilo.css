@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.details span{
+    color: #fff;
+}
+
+.details-container{
+    height: 300px;
+    width: 100%;
+    background-image: url("6968700.jpg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.details-container .details{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.details-container .details-input{
+    display: flex;
+    align-items: center;
+    height: 25px;
+}
+
+.details-container .title span{
+    color: #fff;
+    opacity: 0.7;
+    font-size: 50px;
+}
+
+.details-container .details-input span{
+    color: #fff;
+    font-size: 26px;
+}
+
+.details-container .details-input input[type=text]{
+    height: 30px;
+    width: 250px;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+}
+
+.details-container button{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.details-container button{
+    transform: scale(0.95);
+}
+
+.image-container{
+    padding: 50px;
+    display:block;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.title-explanation-container{
+    padding: 20px 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+
+.explanation-container{
+    padding: 0 50px;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+.input-group>.form-control, .input-group>.form-select {
+    border-radius: 10px 0 0 10px !important;
+    height: 30px !important;
+}
+
+.fa {
+    color: #000 !important; 
+}
+
+.input-group-text {
+    height: 30px !important;
+    padding: 1px 5px 2px 5px !important;
+}
+.input-group-text.bg-white{
+    border-radius: 0 10px 10px 0 !important;
+}
+
+.ui-widget-header {
+    border: 1px solid #3f08e7 !important;
+    background: #6128f6 !important;
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+    border-radius: 5px;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    color: #3f08e7 !important;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	border: 1px solid #cccccc;
+	background: #f6f6f6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #6128f6 !important;
+}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+	color: #1c9dc4 !important;
+	text-decoration: none;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border: 1px solid #3f08e7 !important;
+	background: #fdf5ce url(images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #6128f6 !important;
+}
